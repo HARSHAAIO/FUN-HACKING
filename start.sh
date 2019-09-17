@@ -6,10 +6,9 @@ echo "Press 4 for website dos testing"
 echo "Press 0 to exit"
 
 read opt
-if[opt == 1]
-then
-   chmod +x *
-   ./requirements.sh
+if[opt == 1] then
+    chmod +x *
+    ./requirements.sh
    
 elif[opt == 2]
 then
